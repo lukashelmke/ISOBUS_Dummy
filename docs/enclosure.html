@@ -1,36 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <title>ISOBUS Dummy – 3D Ansicht</title>
+  <meta charset="utf-8">
+  <title>3D Test</title>
 
-  <!-- model-viewer -->
   <script type="module"
-    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+    src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js">
   </script>
 
   <style>
-    body {
-      margin: 0;
-      font-family: sans-serif;
-      background: #111;
-      color: #eee;
-    }
+    body { margin: 0; background: #ddd; }
     model-viewer {
       width: 100vw;
       height: 100vh;
+      background: #eee;
     }
   </style>
 </head>
 
 <body>
+
   <model-viewer
-    src="ISOBUS_Dummy_Rev2.glb"
-    alt="ISOBUS Dummy 3D Modell"
+    src="Dummy.glb"
+    alt="ISOBUS Dummy"
     camera-controls
-    auto-rotate
-    shadow-intensity="1"
-    exposure="1">
+    auto-rotate>
   </model-viewer>
+
 </body>
 </html>
