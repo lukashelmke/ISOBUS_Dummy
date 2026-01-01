@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>ISOBUS Dummy – 3D Ansicht</title>
+
+  <!-- model-viewer -->
+  <script type="module"
+    src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #111;
+      color: #eee;
+    }
+    model-viewer {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <model-viewer
+    src="ISOBUS_Dummy_Rev2.glb"
+    alt="ISOBUS Dummy 3D Modell"
+    camera-controls
+    auto-rotate
+    shadow-intensity="1"
+    exposure="1">
+  </model-viewer>
+</body>
+</html>
