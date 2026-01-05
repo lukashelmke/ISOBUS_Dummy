@@ -1,0 +1,6 @@
+.pio/
+.vscode/
+.idea/
+.clangd/
+sdkconfig.old
+.agents/
